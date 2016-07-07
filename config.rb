@@ -37,9 +37,12 @@ end
 configure :build do
   # Minify CSS on build
   activate :minify_css
-
   # Minify Javascript on build
   activate :minify_javascript
+
+  # for gh project pages
+  activate :relative_assets
+  set :relative_links, true
 end
 
 activate :deploy do |deploy|
