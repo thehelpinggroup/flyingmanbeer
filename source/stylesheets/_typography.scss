@@ -1,0 +1,33 @@
+$sans-serif:  "Source Sans Pro", Helvetica, Verdana, sans-serif;
+$serif: Merriweather, Georgia, 'Times New Roman', serif;
+$mono: 'Source Code Pro', Courier, mono;
+
+$base-font-family: $sans-serif;
+$heading-font-family: $mono;
+
+html {
+  font-family: $base-font-family;
+  font-size: 16px;
+  
+  @media (max-width: 480px) {
+    font-size: 12px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font-family;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
