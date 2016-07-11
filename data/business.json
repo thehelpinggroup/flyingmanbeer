@@ -1,0 +1,26 @@
+{
+  "hours": [
+    {
+      "days": "Monday",
+      "times": "Closed"
+    },
+    {
+      "days": "Tuesday - Thursday",
+      "times": "11:30 AM-9 PM"
+    },
+    {
+      "days": "Friday-Saturday",
+      "times": "11:30 AM-11 PM"
+    },
+    {
+      "days": "Sunday",
+      "times": "12 PM - 7 PM"
+    }
+  ],
+  "location": {
+    "address": "2400 Patterson Industrial Dr.",
+    "city": "Austin",
+    "state": "TX",
+    "postal": "787660"
+  }
+}

@@ -46,7 +46,24 @@ nav {
   @media (min-width: 550px) {
     height: 50rem;
   }
+}
+
+
+.business-section {
+  max-width: 830px;
+  margin: 0 auto;
+
+  .row {
+    font-size: 1.8rem;
+    text-align: left;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
   img {
+    margin: 0 auto;
   }
 }
 
