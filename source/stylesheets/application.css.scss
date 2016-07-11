@@ -1,20 +1,68 @@
 @charset "utf-8";
 @import "normalize";
 @import 'typography';
+@import "vendor/skeleton";
 
 body {
   text-align: center;
-  padding: 40px;
 }
 
-.logo {
-  max-width: 600px;
+
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+
+  span {
+    text-align: left;
+    padding: 10px;
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+  }
+
+  li {
+    padding: 10px;
+  }
+}
+
+
+
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/background.png); 
+  width: 1442px; 
+  height: 798px;
+
+  .logo {
+
+    background-color: #8A8D8F;
+    border-radius: 50%; 
+    max-width: 600px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.content {
+  max-width: 840px;
   margin: 0 auto;
 
-  img {
-    width: 100%;
-    height: auto;
-    border-radius: 20px;
+  p {
+    max-width: 534px;
+    margin: 0 auto;
+    text-align: justify;
   }
+
 }
 
