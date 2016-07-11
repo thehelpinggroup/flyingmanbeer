@@ -2,7 +2,7 @@ $sans-serif:  "Source Sans Pro", Helvetica, Verdana, sans-serif;
 $serif: Merriweather, Georgia, 'Times New Roman', serif;
 $mono: 'Source Code Pro', Courier, mono;
 
-$base-font-family: $sans-serif;
+$base-font-family: 'montserrat';
 $heading-font-family: $mono;
 
 html {
@@ -14,13 +14,37 @@ html {
   }
 }
 
+@font-face {
+  font-family: 'montserrat';
+  src: url('../fonts/montserrat-bold-webfont.woff2') format('woff2'),
+       url('../fonts/montserrat-bold-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'montserrat';
+  src: url('../fonts/montserrat-light-webfont.woff2') format('woff2'),
+       url('../fonts/montserrat-light-webfont.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserrat';
+  src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+       url('../fonts/montserrat-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: $heading-font-family;
+  font-family: 'montserrat';
 }
 
 h1 {
