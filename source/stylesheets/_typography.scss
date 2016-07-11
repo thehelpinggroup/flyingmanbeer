@@ -7,9 +7,9 @@ $heading-font-family: $mono;
 
 html {
   font-family: $base-font-family;
-  font-size: 16px;
+  font-size: 12px;
   
-  @media (max-width: 480px) {
+  @media (min-width: 550px) {
     font-size: 12px;
   }
 }
