@@ -8,12 +8,12 @@ title: Welcome to Flying Man Brewery Co.
 .hero
   %img.img-responsive{src: 'images/logo.png'}
 .container
-  %h1
+  %h2
     We are a North Austin brewery dedicated to exceptionally crafted ales, world styles, and aviation.
   %p
     Flying Man Brewing Co is a 30 Barrel brewhouse located in North Austin, TX. We are a kid & dog friendly brewery committed to quality beer & flight. We are currently under construction of our new tap room and outdoor seating area. We plan to open some time between September and October 2016.
   .business-section
-    %h1 
+    %h2
       Hours & Location
     .row
       .six.columns
@@ -23,7 +23,25 @@ title: Welcome to Flying Man Brewery Co.
               #{hour.days}: #{hour.times}
       .six.columns
         .row
-          #{location.address} #{location.city} 
+          #{location.address}  
         .row
-          #{location.state} #{location.postal}
+          #{location.city}, #{location.state} #{location.postal}
     %img.img-responsive{src: 'images/map.png'}
+.contact-form
+  .row
+    .six.columns
+      %img.img-responsive{src: 'images/logo-transparent.png'}
+    .six.columns
+      .header
+        Join Our Mailing List
+      .title
+        Be the first to know about new beer releases, brewery 
+        events, and other Flying Man Brewing Co. news.
+      .form
+        .form-input
+          %input{placeholder: 'Name'}
+        .form-input
+          %input{placeholder: 'Email Address'}
+        .form-submit
+          %input{type: 'submit'}
+%footer
