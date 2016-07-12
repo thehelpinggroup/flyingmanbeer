@@ -1,0 +1,24 @@
+nav {
+  padding: 20px;
+  line-height: 1.7rem;
+  vertical-align: center;
+
+  span {
+    text-align: left;
+  }
+
+  ul {
+    list-style-type: none;
+    line-height: 3.4rem;
+    margin-bottom: 0px;
+
+    :last-child {
+      border:  2px solid black;
+    }
+  }
+
+  li {
+    display: inline;
+    padding: 7px;
+  }
+}

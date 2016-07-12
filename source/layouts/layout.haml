@@ -12,16 +12,5 @@
     = yield_content :assets
 
   %body{class: page_classes}
-    %nav
-      %span
-        Flying Man
-        %br
-        Brewing Company
-      %ul 
-        %li BEER
-        %li EVENTS
-        %li NEWS
-        %li About
-        %li Shop
-        %li Contact
+    = partial 'layouts/nav'
     = yield
