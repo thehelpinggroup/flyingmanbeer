@@ -1,9 +1,4 @@
-$sans-serif:  "Source Sans Pro", Helvetica, Verdana, sans-serif;
-$serif: Merriweather, Georgia, 'Times New Roman', serif;
-$mono: 'Source Code Pro', Courier, mono;
-
 $base-font-family: 'montserrat';
-$heading-font-family: $mono;
 
 html {
   font-family: $base-font-family;
@@ -38,14 +33,17 @@ html {
   font-style: normal;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'montserrat';
+h1, h2, h3, h4, h5, h6, form {
+  font-family: 'montserrat' sans-serif;
 }
 
 h2 { font-size: 2.5rem; }
+h3 { font-size: 2rem; }
+
 
 @media (min-width: 550px) {
   h2 { font-size: 2.5rem; }
+  h3 { font-size: 2rem; }
 }
 
 p {
