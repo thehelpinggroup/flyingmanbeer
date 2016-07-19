@@ -12,5 +12,6 @@
     = yield_content :assets
 
   %body{class: page_classes}
-    = partial 'layouts/nav'
+    %header
+      = partial 'layouts/nav'
     = yield

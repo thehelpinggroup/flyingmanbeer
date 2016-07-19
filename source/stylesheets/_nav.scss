@@ -1,20 +1,30 @@
-nav {
+header {
   padding: 20px;
+  .button {
+    padding: 0 18px;
+  }
   ul {
     list-style-type: none;
     line-height: 3.4rem;
     margin-bottom: 0px;
+    @media (min-width: 550px) {
+      text-align: right;
+    }
   }
 
   li {
     display: inline;
     padding: 7px;
+    &.button {
+      margin-top: 10px;
+      margin-bottom: 0;
+    }
   }
   h1.title {
     font-size: 2rem;
     font-weight: bold;
     text-transform: uppercase;
     margin:0;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
   }
 }
